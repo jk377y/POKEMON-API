@@ -1,7 +1,7 @@
 const pokeball = document.querySelector("#pokeball");
 const searchInput = document.querySelector("#searchbar");
 const fetchUrl = "https://pokeapi.co/api/v2/pokemon/";
-const pokemonCount = 150;
+const pokemonCount = 1500;
 
 function searchPokemon() {
 	const searchTerm = searchInput.value.toLowerCase();
