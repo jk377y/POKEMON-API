@@ -1,4 +1,4 @@
-const pokedex = document.getElementById("pokeball");
+const pokeball = document.getElementById("pokeball");
 const searchInput = document.getElementById("searchbar");
 const fetchUrl = "https://pokeapi.co/api/v2/pokemon/";
 const pokemonCount = 150;
@@ -46,7 +46,7 @@ const displayPokemon = (pokemon) => {
             `
 		)
 		.join("");
-	pokedex.innerHTML = pokemonHTMLString;
+	pokeball.innerHTML = pokemonHTMLString;
 };
 
 searchInput.addEventListener("input", searchPokemon);
