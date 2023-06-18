@@ -1,5 +1,5 @@
-const pokeball = document.getElementById("pokeball");
-const searchInput = document.getElementById("searchbar");
+const pokeball = document.querySelector("#pokeball");
+const searchInput = document.querySelector("#searchbar");
 const fetchUrl = "https://pokeapi.co/api/v2/pokemon/";
 const pokemonCount = 150;
 

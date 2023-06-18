@@ -15,7 +15,7 @@ body {
 	text-align: center;
 	color: rgb(255, 255, 0);
 }
-.searchbar {
+#searchbar {
 	width: 400px;
 	font-size: 1.5rem;
 	margin: 10px 0 25px 0;
