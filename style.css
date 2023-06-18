@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgb(53, 53, 53);
+	color: white;
+	text-align: center;
+}
+.container h1 {
+	margin: 50px 0 10px 0;
+	text-align: center;
+	color: rgb(255, 255, 0);
+}
+.searchbar {
+	width: 400px;
+	font-size: 1.5rem;
+	margin: 10px 0 25px 0;
+	text-align: center;
+}
+#pokeball {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+.card {
+	background-color: rgb(70, 99, 94);
+	border-radius: 20px;
+	width: 200px;
+	border: 5px inset rgb(1, 109, 93);
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.cardTitle {
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+.cardImage {
+	width: 125px;
+}
